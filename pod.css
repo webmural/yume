@@ -1,0 +1,43 @@
+:focus {
+  outline: thick double;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: calc(1em + 1vw + 1vh);
+}
+
+.unity {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.unified {
+  align-self: center;
+  position: relative;
+  padding: 1em;
+  flex-basis: 100%;
+  min-height: 61vh;
+}
+
+.unified p {
+  margin: auto;
+  position: absolute;
+  bottom: 38%;
+}
+
+body {
+  margin: 0;
+}
+
+sup {
+  font-size: 1.61em;
+}
+
+.voz {
+  font-size: 0;
+}

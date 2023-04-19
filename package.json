@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "scripts": {
+    "firefox": "open -a firefox index.html || start firefox index.html",
+    "start": "npm run firefox",
+    "test": "npm doctor"
+  }
+}
